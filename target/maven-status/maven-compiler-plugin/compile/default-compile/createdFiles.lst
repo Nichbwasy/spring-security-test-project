@@ -1,0 +1,4 @@
+org\example\configs\WebSecurityConfig.class
+org\example\configs\WebConfig.class
+org\example\controllers\MainPageController.class
+org\example\configs\SpringWebInitializer.class

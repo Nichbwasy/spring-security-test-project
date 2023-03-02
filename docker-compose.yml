@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  test-restful-app:
+    container_name: test-restful-app
+    image: tomcat
+    volumes:
+      - ./target/TestRestfulApp.war:/usr/local/tomcat/webapps/TestRestfulApp.war
+    ports:
+      - 8070:8080
